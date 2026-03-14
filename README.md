@@ -1,4 +1,4 @@
-# Shivam Kumar - Personal Portfolio
+# Kajal Kumari - Personal Portfolio
 
 A modern, responsive, and interactive personal developer portfolio built with React to showcase my skills, experience, and projects. 
 
@@ -12,7 +12,7 @@ A modern, responsive, and interactive personal developer portfolio built with Re
     *   **About Me**: A summary of my background as a Computer Science and Engineering student at LPU.
     *   **Skills**: A categorized grid of technical skills (Languages, Frameworks, Tools, Soft Skills) with logos.
     *   **Experience**: A timeline of my roles, hackathons, and collaborative projects.
-    *   **Projects**: Detailed cards for my latest work, including *SportNova (AI Sports Platform)*, *Risklens (Fintech App)*, and an *AI Code Review Platform*.
+    *   **Projects**: Detailed cards for my latest work, including *Automatic Car Price Prediction*, *Mindful Meditation*, *Local Business Product Finder*, and *Restaurant Menu System*.
     *   **Education**: A timeline of my academic background.
 *   **Interactive Elements**: Includes typing effects, tilt animations, and smooth scrolling.
 *   **Contact Form**: Integrated with EmailJS for direct messaging.
