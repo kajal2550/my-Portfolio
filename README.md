@@ -2,7 +2,7 @@
 
 A modern, responsive, and interactive personal developer portfolio built with React to showcase my skills, experience, and projects. 
 
-[![Live Preview](https://img.shields.io/badge/Live_Preview-View_Portfolio-blue?style=for-the-badge&logo=vercel)](https://shivam-dev-portfolio.vercel.app/)
+[![Live Preview](https://img.shields.io/badge/Live_Preview-View_Portfolio-blue?style=for-the-badge&logo=vercel)](https://kajal-dev-portfolio.vercel.app/)
 
 ## 🚀 Features
 
@@ -43,8 +43,8 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/storm309/shivam-dev-portfolio.git
-    cd shivam-dev-portfolio
+    git clone https://github.com/kajal2550/kajal-dev-portfolio.git
+    cd kajal-dev-portfolio
     ```
 
 2.  **Install dependencies**
@@ -87,13 +87,13 @@ To get a local copy up and running, follow these simple steps.
 
 ## 🌐 Live Preview
 
-You can view the live version of this portfolio here: **[https://shivam-dev-portfolio.vercel.app/](https://shivam-dev-portfolio.vercel.app/)**
+You can view the live version of this portfolio here: **[https://kajal-dev-portfolio.vercel.app/](https://kajal-dev-portfolio.vercel.app/)**
 
 ## 📬 Contact
 
-**Shivam Kumar**
-*   Email: shivamkumarp447@gmail.com
-*   GitHub: [storm309](https://github.com/storm309)
+**kajal kumari**
+*   Email:  kajalrajput808476566@gmail.com
+*   GitHub: [kajal2550](https://github.com/kajal2550)
 
 ---
 *Feel free to star ⭐ this repository if you find it helpful!*

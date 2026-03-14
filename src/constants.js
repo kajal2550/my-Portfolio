@@ -55,48 +55,77 @@ import sportnovaLogo from './assets/work_logo/cm.png';
 import aiCodeReviewLogo from './assets/work_logo/github_det.png';
 import libraryMgmtLogo from './assets/work_logo/bookshop.png';
 
+// Certificates Logos
+import nptelCert from './assets/certificates/NPTEL.png';
+import fccCert from './assets/certificates/Responsive web design.png';
+import lpuCert from './assets/certificates/Intenship.png';
+import chatgptCert from './assets/certificates/chatgpt-4.png';
+
+// LeetCode Logo
+import leetcodeImg from './assets/Leetcode.png';
+
+// Project Mockups
+import carPriceMockup from './assets/project_mockups/car_price.png';
+import meditationMockup from './assets/project_mockups/meditation.jpg';
+import javaMockup from './assets/project_mockups/java_img.webp';
+import localBusinessMockup from './assets/project_mockups/Local_business.jpg';
+import recipeMockup from './assets/Recipe.jpg';
+
 
 export const SkillsInfo = [
   {
-    title: 'Languages',
+    title: 'Frontend',
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
+      { name: 'HTML5', logo: htmlLogo },
+      { name: 'CSS3', logo: cssLogo },
       { name: 'JavaScript (ES6+)', logo: javascriptLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'Kotlin', logo: kotlinLogo },
-    ],
-  },
-  {
-    title: 'Frameworks',
-    skills: [
-      { name: 'HTML & CSS', logo: htmlLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
-      { name: 'Node.js', logo: nodejsLogo },
+      { name: 'TypeScript', logo: typescriptLogo },
       { name: 'React.js', logo: reactjsLogo },
+      { name: 'Next.js', logo: nextjsLogo },
+      { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      { name: 'Sass', logo: sassLogo },
     ],
   },
   {
-    title: 'Tools/Platforms',
+    title: 'Backend',
+    skills: [
+      { name: 'Node.js', logo: nodejsLogo },
+      { name: 'Express.js', logo: expressjsLogo },
+      { name: 'Java', logo: javaLogo },
+      { name: 'Spring Boot', logo: springbootLogo },
+      { name: 'PHP', logo: null },
+      { name: 'Python', logo: pythonLogo },
+    ],
+  },
+  {
+    title: 'DevOps',
+    skills: [
+      { name: 'Docker', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
+      { name: 'Jenkins', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg' },
+      { name: 'CI/CD Pipelines', logo: null },
+      { name: 'Linux/Bash', logo: null },
+      { name: 'Cloud Fundamentals', logo: null },
+    ],
+  },
+  {
+    title: 'Databases',
     skills: [
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
-      { name: 'Spring Boot', logo: springbootLogo },
-      { name: 'Git & GitHub', logo: gitLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Android Studio', logo: androidStudioLogo },
+      { name: 'Firebase', logo: firebaseLogo },
     ],
   },
   {
-    title: 'Soft Skills',
+    title: 'Tools & Deployment',
     skills: [
-      { name: 'Team Collaboration', logo: null },
-      { name: 'Adaptability', logo: null },
-      { name: 'Leadership', logo: null },
-      { name: 'Quick Learning', logo: null },
+      { name: 'Git', logo: gitLogo },
+      { name: 'GitHub', logo: githubLogo },
+      { name: 'VS Code', logo: vscodeLogo },
+      { name: 'Postman', logo: postmanLogo },
+      { name: 'Vercel', logo: vercelLogo },
+      { name: 'Netlify', logo: netlifyLogo },
     ],
   },
 ];
@@ -117,17 +146,17 @@ export const experiences = [
     role: "Full Stack Developer",
     company: "Collaborative Projects with Peers",
     date: "2025 - Present",
-    desc: "Worked with a team of friends on real-world full stack projects including an AI-powered sports platform (SportNova) and a fintech Android app (Risklens). Took ownership of both frontend and backend modules, integrated REST APIs, and followed industry practices like MVC architecture and JWT authentication.",
-    skills: ["MERN Stack", "Kotlin", "Firebase", "REST APIs", "JWT", "Git & GitHub"],
+    desc: "Worked with a team on real-world full stack web projects including responsive dashboards and RESTful APIs. Took ownership of both frontend and backend modules, integrated REST APIs, and followed industry practices like MVC architecture and JWT authentication. Focused on building scalable, user-centric web applications.",
+    skills: ["MERN Stack", "React", "Node.js", "REST APIs", "JWT", "Git & GitHub"],
   },
   {
     id: 2,
     img: agcLogo,
-    role: "Android Developer",
-    company: "Self-Initiated Android Projects",
+    role: "DevOps & Automation Enthusiast",
+    company: "Self-Learning & Practice",
     date: "2025 - Present",
-    desc: "Independently built Android applications using Kotlin and Android Studio, implementing features like real-time data sync with Firebase, SQLite local storage, and REST API integration. Focused on clean architecture, smooth UX, and performance optimization across various screen sizes.",
-    skills: ["Kotlin", "Android Studio", "Firebase", "SQLite", "REST APIs", "MVVM"],
+    desc: "Exploring DevOps tools and practices — containerization (Docker), CI/CD pipelines, Git workflows, and cloud fundamentals. Building and automating deployment pipelines for web projects. Focused on learning infrastructure as code and streamlining development workflows.",
+    skills: ["Docker", "Git & GitHub", "CI/CD", "Linux", "REST APIs", "Automation"],
   },
 ];
 
@@ -140,69 +169,144 @@ export const education = [
     school: "Lovely Professional University (LPU), Phagwara",
     date: "Aug 2023 - Present",
     grade: "CGPA: N/A",
-    desc: "Pursuing B.Tech in Computer Science and Engineering at LPU. Currently in 5th semester; focusing on Data Structures, DBMS, OS, Web Development and projects.",
+    desc: "Pursuing B.Tech in Computer Science and Engineering at LPU. Currently in 6th semester; focusing on Data Structures, DBMS, OS, Web Development, DevOps and projects.",
     degree: "B.Tech - Computer Science and Engineering",
   },
   {
     id: 1,
     img: vpsLogo,
-    school: "HSV Inter College, Ramgarhwa",
-    date: "Apr 2021 - Mar 2022",
-    grade: "Percentage: 70%",
-    desc: "Completed Class XII from HSV Inter College, Ramgarhwa.",
+    school: "S.D.K.M.V Sen. Sec. School, Phagwara, Punjab",
+    date: "Apr 2022 - Mar 2023",
+    grade: "PSEB",
+    desc: "Completed Class XII (Intermediate) from S.D.K.M.V Sen. Sec. School (PSEB), Phagwara, Punjab.",
     degree: "Intermediate (XII) - PCMB",
   },
   {
     id: 2,
     img: bsaLogo,
-    school: "SGM High School, Ramgarhwa",
-    date: "Apr 2019 - Mar 2020",
-    grade: "Percentage: 70%",
-    desc: "Completed Class X from SGM High School (BSEB).",
+    school: "S.D.K.M.V Sen. Sec. School, Phagwara, Punjab",
+    date: "Apr 2020 - Mar 2021",
+    grade: "PSEB",
+    desc: "Completed Class X from S.D.K.M.V Sen. Sec. School (PSEB), Phagwara, Punjab.",
     degree: "Matriculation (X)",
   },
+];
+
+export const certificates = [
+  {
+    id: 0,
+    img: nptelCert,
+    title: "Cloud Computing",
+    organization: "NPTEL (IIT Kharagpur)",
+    date: "Jan-Apr 2025",
+    desc: "Successfully completed the 12-week NPTEL course on Cloud Computing with a consolidated score of 58%. Covered cloud architecture, virtualization, and deployment models.",
+  },
+  {
+    id: 1,
+    img: lpuCert,
+    title: "Machine Learning Made Easy",
+    organization: "Lovely Professional University (LPU)",
+    date: "July 2025",
+    desc: "Earned a Certificate of Merit for the course 'Machine Learning Made Easy: From Basics to AI Applications' organized by the Centre for Professional Enhancement.",
+  },
+  {
+    id: 2,
+    img: fccCert,
+    title: "Responsive Web Design",
+    organization: "freeCodeCamp",
+    date: "Nov 2023",
+    desc: "Earned the Responsive Web Design Developer Certification, representing approximately 300 hours of coursework covering HTML5, CSS3, Flexbox, and Grid.",
+  },
+  {
+    id: 3,
+    img: chatgptCert,
+    title: "Introduction to Hardware and Operating Systems",
+    organization: "IBM (via Coursera)",
+    date: "Oct 2025",
+    desc: "Completed the IBM certification course covering the fundamentals of hardware components and operating system operations.",
+  },
+];
+
+export const leetcodeData = {
+  username: "kajal_dev_26",
+  profileLink: "https://leetcode.com/u/kajal_dev_26/",
+  rank: "743,309",
+  solved: "202 / 3365",
+  easy: "112 / 930",
+  medium: "80 / 2,022",
+  hard: "10 / 913",
+  contestRating: "1,421",
+  totalActiveDays: "146",
+  maxStreak: "68",
+  image: leetcodeImg,
+};
+export const achievements = [
+  {
+    id: 0,
+    title: "DSA Problem Solver",
+    subtitle: "200+ Problems",
+    desc: "Regularly solve data structure and algorithm problems across LeetCode and other platforms to sharpen logic and interview readiness.",
+    icon: "🚀"
+  },
+  {
+    id: 1,
+    title: "Hackathon & Team Collaboration",
+    subtitle: "2 Events",
+    desc: "Participated in multiple hackathons and coding events, delivering prototypes with strong teamwork under deadlines.",
+    icon: "🤝"
+  }
 ];
 
 
 export const projects = [
   {
     id: 0,
-    title: "Risklens – Fintech Android App",
-    description: "Developed an Android-based fintech application using Kotlin, enabling users to track stock performance and monitor investments in real time. Integrated third-party REST APIs to fetch live market data and financial news, ensuring accurate and up-to-date information. Improved user engagement and decision-making by delivering real-time insights and a smooth, responsive user experience.",
-    date: "Jun 2025 - Aug 2025",
-    image: risklensLogo,
-    tags: ["Kotlin", "Android Studio", "REST APIs", "Firebase", "SQLite"],
-    github: "https://github.com/storm309/risklens",
-    webapp: "#",
+    title: "Automatic Car Price Prediction",
+    description: "An ML-based project that predicts car prices using various features. Built with Python and Machine Learning algorithms to analyze datasets and deliver accurate price estimates. Explores data preprocessing, model training, and evaluation techniques in AI/ML.",
+    date: "2024 - 2025",
+    image: carPriceMockup,
+    tags: ["Python", "Machine Learning", "Scikit-learn", "Pandas", "NumPy"],
+    github: "https://github.com/kajal2550/car_price",
+    webapp: "https://carprice-wmmxjmjxcdkfvwkhyjbvdz.streamlit.app/",
   },
   {
     id: 1,
-    title: "SportNova - AI-Powered Sports Performance Platform",
-    description: "Developed an AI-powered sports analytics platform to track and optimize athlete performance using real-time metrics and video uploads. Built a responsive dashboard with React, Tailwind CSS, and Framer Motion featuring interactive charts and modern UI design. Integrated Google Gemini AI to provide personalized training insights, player comparisons, and intelligent role-based recommendations. Implemented JWT authentication, role-based access control, RESTful APIs, and MongoDB for secure data and video management.",
-    date: "Jun 2025 - Sep 2025",
-    image: sportnovaLogo,
-    tags: ["React", "Node.js", "Express.js", "MongoDB", "Google Gemini AI", "JWT", "Tailwind CSS", "Framer Motion", "Multer", "Axios"],
-    github: "https://github.com/storm309/sportnova",
-    webapp: "#",
+    title: "Mindful Meditation - Full Stack Project",
+    description: "A full stack web application for mindfulness and meditation, built with HTML, CSS, JavaScript, and PHP. Features a clean, responsive UI with interactive meditation guides and user-friendly design. Demonstrates frontend-backend integration and dynamic content handling.",
+    date: "2024 - 2025",
+    image: meditationMockup,
+    tags: ["HTML", "CSS", "JavaScript", "PHP", "Full Stack"],
+    github: "https://github.com/kajal2550/front_end-php",
+    webapp: "https://zenspace.infinityfree.me/?i=1",
   },
   {
     id: 2,
-    title: "AI Code Review Platform",
-    description: "AI-powered code review platform built with Spring Boot, React, PostgreSQL, and Google Gemini API that analyzes source code, detects bugs, suggests improvements, and provides code quality scores.",
-    date: "Mar 2026",
-    image: aiCodeReviewLogo,
-    tags: ["React", "Java", "Spring Boot", "PostgreSQL", "Google Gemini API"],
-    github: "https://github.com/storm309/ai-code-review-platform",
-    webapp: "#",
+    title: "Local Business Product Finder",
+    description: "A MERN stack web application that helps users discover and find local business products. Built with Node.js and React for a fast, responsive experience. Features product search, filtering, and a modern UI connecting users with local vendors.",
+    date: "2024 - 2025",
+    image: localBusinessMockup,
+    tags: ["React", "Node.js", "MongoDB", "Express.js", "MERN Stack"],
+    github: "https://github.com/kajal2550",
+    webapp: "https://kajal2550.github.io/local-business-finder/",
   },
   {
     id: 3,
     title: "Java Library Management System",
     description: "A console-based Library Management System built using Core Java and MVC architecture. Demonstrates OOP concepts, collections framework, and real-world book management operations.",
     date: "Mar 2026",
-    image: libraryMgmtLogo,
+    image: javaMockup,
     tags: ["Java", "OOP", "MVC Pattern", "Collections Framework", "Core Java"],
     github: "https://github.com/storm309/java-library-management-system",
-    webapp: "#",
+    webapp: "https://github.com/storm309/java-library-management-system",
+  },
+  {
+    id: 4,
+    title: "Restaurant-Menu - Frontend Project",
+    description: "A modern and responsive restaurant menu web application built with HTML, CSS, and JavaScript. Features a clean dark-themed UI with categorized food items, a search functionality, and interactive menus. Showcases frontend design skills and user experience focus.",
+    date: "2024 - 2025",
+    image: recipeMockup,
+    tags: ["HTML", "CSS", "JavaScript", "Frontend"],
+    github: "https://github.com/kajal2550/Restaurant-Menu-System",
+    webapp: "https://lively-cascaron-6ea8ee.netlify.app",
   },
 ];

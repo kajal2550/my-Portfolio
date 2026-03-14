@@ -9,20 +9,19 @@ const Experience = () => {
     >
       {/* Section Title */}
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-white">EXPERIENCE</h2>
+        <h2 className="text-4xl font-bold text-gray-900 dark:text-white transition-colors duration-300 uppercase tracking-wider text-purple-500">
+          ACTIVITIES & INVOLVEMENT
+        </h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
-        <p className="text-gray-400 mt-4 text-lg font-semibold">
-         A dedicated and creative problem-solver with a keen interest in full-stack and mobile application development. 
-         My focus is on leveraging modern technologies to build user-centric products. 
-         I am a quick learner, thrive in collaborative settings, and am ready to make a tangible 
-         contribution to a development team.
+        <p className="text-gray-600 dark:text-gray-400 mt-8 text-lg font-medium leading-relaxed max-w-4xl mx-auto transition-colors duration-300 italic">
+          A dedicated and creative problem-solver with a keen interest in full-stack and mobile application development. My focus is on leveraging modern technologies to build user-centric products. I am a quick learner, thrive in collaborative settings, and am ready to make a tangible contribution to a development team.
         </p>
       </div>
 
       {/* Experience Timeline */}
       <div className="relative">
         {/* Vertical line */}
-        <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
+        <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-gray-200 dark:bg-white h-full transition-colors duration-300"></div>
 
         {/* Experience Entries */}
         {experiences.map((experience, index) => (
@@ -43,9 +42,9 @@ const Experience = () => {
 
             {/* Content Section */}
             <div
-              className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] ${
+              className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl border border-gray-200 dark:border-white/20 bg-white/20 dark:bg-gray-900/40 backdrop-blur-2xl shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] ${
                 index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"
-              } sm:ml-44 sm:mr-44 ml-8 transform transition-transform duration-300 hover:scale-105`}
+              } sm:ml-44 sm:mr-44 ml-8 transform transition-all duration-300 hover:scale-105`}
             >
               {/* Flex container for image and text */}
               <div className="flex items-center space-x-6">
@@ -61,10 +60,10 @@ const Experience = () => {
                 {/* Role, Company Name, and Date */}
                 <div className="flex flex-col justify-between">
                   <div>
-                    <h3 className="text-xl sm:text-2xl font-semibold text-white">
+                    <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white transition-colors duration-300">
                       {experience.role}
                     </h3>
-                    <h4 className="text-md sm:text-sm text-gray-300">
+                    <h4 className="text-md sm:text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300">
                       {experience.company}
                     </h4>
                   </div>
@@ -73,9 +72,9 @@ const Experience = () => {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-400">{experience.desc}</p>
+              <p className="mt-4 text-gray-600 dark:text-gray-400 transition-colors duration-300">{experience.desc}</p>
               <div className="mt-4">
-                <h5 className="font-medium text-white">Skills:</h5>
+                <h5 className="font-medium text-gray-900 dark:text-white transition-colors duration-300">Skills:</h5>
                 <ul className="flex flex-wrap mt-2">
                   {experience.skills.map((skill, index) => (
                     <li
