@@ -21,7 +21,7 @@ const Leetcode = () => {
             <span className="text-3xl font-bold text-[#8245ec] mb-1">{leetcodeData.solved.split(' / ')[0]}</span>
             <span className="text-xs text-gray-400 uppercase tracking-widest">Solved</span>
             <div className="w-full bg-gray-100 dark:bg-gray-800 h-1.5 rounded-full mt-3 overflow-hidden">
-               <div className="bg-[#8245ec] h-full" style={{ width: '38%' }}></div>
+             <div className="bg-[#8245ec] h-full" style={{ width: '4%' }}></div>
             </div>
           </div>
 
@@ -51,7 +51,7 @@ const Leetcode = () => {
                    <span className="text-gray-900 dark:text-white font-medium">{leetcodeData.easy}</span>
                 </div>
                 <div className="w-full bg-gray-100 dark:bg-gray-800 h-1.5 rounded-full overflow-hidden">
-                   <div className="bg-green-500 h-full" style={{ width: '45%' }}></div>
+                   <div className="bg-green-500 h-full" style={{ width: '4%' }}></div>
                 </div>
                 
                 <div className="flex justify-between items-center">
@@ -59,7 +59,7 @@ const Leetcode = () => {
                    <span className="text-gray-900 dark:text-white font-medium">{leetcodeData.medium}</span>
                 </div>
                 <div className="w-full bg-gray-100 dark:bg-gray-800 h-1.5 rounded-full overflow-hidden">
-                   <div className="bg-yellow-500 h-full" style={{ width: '30%' }}></div>
+                   <div className="bg-yellow-500 h-full" style={{ width: '3%' }}></div>
                 </div>
 
                 <div className="flex justify-between items-center">
@@ -67,7 +67,7 @@ const Leetcode = () => {
                    <span className="text-gray-900 dark:text-white font-medium">{leetcodeData.hard}</span>
                 </div>
                 <div className="w-full bg-gray-100 dark:bg-gray-800 h-1.5 rounded-full overflow-hidden">
-                   <div className="bg-red-500 h-full" style={{ width: '15%' }}></div>
+                   <div className="bg-red-500 h-full" style={{ width: '2%' }}></div>
                 </div>
              </div>
           </div>

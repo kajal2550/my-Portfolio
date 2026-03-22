@@ -228,28 +228,35 @@ export const certificates = [
 ];
 
 export const leetcodeData = {
-  username: "kajal_dev_26",
-  profileLink: "https://leetcode.com/u/kajal_dev_26/",
-  rank: "743,309",
-  solved: "202 / 3365",
-  easy: "112 / 930",
-  medium: "80 / 2,022",
-  hard: "10 / 913",
-  contestRating: "1,421",
-  totalActiveDays: "146",
-  maxStreak: "68",
+  username: "b91qdN8Moz",
+  profileLink: "https://leetcode.com/u/b91qdN8Moz/",
+  rank: "1,345,598",
+  solved: "150 / 3873",
+  easy: "33 / 932",
+  medium: "60 / 2026",
+  hard: "20 / 915",
+  contestRating: "N/A",
+  totalActiveDays: "52",
+  maxStreak: "40",
   image: leetcodeImg,
 };
 export const achievements = [
   {
     id: 0,
     title: "DSA Problem Solver",
-    subtitle: "200+ Problems",
+    subtitle: "150+ Problems",
     desc: "Regularly solve data structure and algorithm problems across LeetCode and other platforms to sharpen logic and interview readiness.",
     icon: "🚀"
   },
   {
     id: 1,
+    title: "50 Days Badge on LeetCode",
+    subtitle: "50 Days Badge 2026",
+    desc: "Earned the prestigious LeetCode 50 Days Badge 2026 by consistently solving problems for 50 days, demonstrating dedication and consistency.",
+    icon: "🏅"
+  },
+  {
+    id: 2,
     title: "Hackathon & Team Collaboration",
     subtitle: "2 Events",
     desc: "Participated in multiple hackathons and coding events, delivering prototypes with strong teamwork under deadlines.",

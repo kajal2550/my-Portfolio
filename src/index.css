@@ -10,6 +10,19 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 80%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 70%;
+  }
 }
 
 @layer utilities {
