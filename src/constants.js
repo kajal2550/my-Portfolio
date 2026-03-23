@@ -230,21 +230,21 @@ export const certificates = [
 export const leetcodeData = {
   username: "b91qdN8Moz",
   profileLink: "https://leetcode.com/u/b91qdN8Moz/",
-  rank: "1,345,598",
-  solved: "150 / 3873",
-  easy: "33 / 932",
-  medium: "60 / 2026",
-  hard: "20 / 915",
+  rank: "1,016,543",
+  solved: "151 / 3878",
+  easy: "45 / 933",
+  medium: "81 / 2029",
+  hard: "25 / 916",
   contestRating: "N/A",
-  totalActiveDays: "52",
-  maxStreak: "40",
+  totalActiveDays: "58",
+  maxStreak: "46",
   image: leetcodeImg,
 };
 export const achievements = [
   {
     id: 0,
     title: "DSA Problem Solver",
-    subtitle: "150+ Problems",
+    subtitle: "151+ Problems",
     desc: "Regularly solve data structure and algorithm problems across LeetCode and other platforms to sharpen logic and interview readiness.",
     icon: "🚀"
   },
